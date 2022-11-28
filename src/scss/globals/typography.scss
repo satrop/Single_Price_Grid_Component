@@ -1,0 +1,23 @@
+@use '../utils' as u;
+
+body {
+	font-size: u.rem(14);
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: u.rem(20);
+	font-weight: var(--fw-bld);
+}
+
+h2 {
+	font-size: u.rem(18);
+	font-weight: var(--fw-bld);
+}
+
+.sub-header {
+	font-size: u.rem(15);
+	font-weight: var(--fw-bld);
+	line-height: 1.3;
+	color: var(--clr-p-200);
+}

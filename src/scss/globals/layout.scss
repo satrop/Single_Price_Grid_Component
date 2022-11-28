@@ -1,0 +1,31 @@
+@use '../utils' as u;
+
+:root {
+	--trans-dur: 0.3s ease-in-out;
+}
+
+body {
+	background-color: var(--clr-n-100);
+	color: var(--clr-n-200);
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	height: 100vh;
+}
+
+main {
+	margin-block: auto;
+}
+
+:where(.flow :not(:first-child)) {
+	margin-top: var(--flow-spacer, 1em);
+}
+
+footer {
+	margin-bottom: 1rem;
+}
+
+a {
+	color: var(--clr-p-100);
+	text-decoration: none;
+}

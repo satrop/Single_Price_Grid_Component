@@ -1,0 +1,5 @@
+**/*.map
+node_modules.nosync
+node_modules
+Design
+.DS_Store
