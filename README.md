@@ -32,7 +32,7 @@ Users should be able to:
 
 ### What I learned
 
-Not to much to talk about on this. Did this mini project to remind myself how to use the Grid as I don't get to us it much/at all in my daily work. I was keep to practice the placement of columns using the `grid-column`. 
+Not too much to talk about on this. Did this mini project to remind me how to use the Grid as I don't get to us it much/at all in my daily work. I kept practicing the placement of columns using the `grid-column`. 
 
 ```scss
 .card {
